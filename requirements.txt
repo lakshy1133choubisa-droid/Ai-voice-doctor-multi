@@ -131,3 +131,20 @@ watchdog                  6.0.0
 websockets                16.1.1
 yarl                      1.25.1
 zope-interface            8.6
+gradio
+python-dotenv
+gTTS
+openai
+google-genai
+opencv-python-headless
+numpy<2.0.0
+pandas
+pillow
+pydantic
+pypdf
+pypdfium2
+pydicom
+ffmpeg
+libsm6
+libxext6
+libgl1-mesa-glx
