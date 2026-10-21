@@ -1558,4 +1558,10 @@ with gr.Blocks(title=APP_TITLE, css=CSS, theme=gr.themes.Base()) as iface:
     )
 
 if __name__ == "__main__":
+    server_port = int(os.getenv("PORT", 7860))
+    iface.launch(
+        server_name="0.0.0.0",
+        server_port=server_port,
+        debug=True
+    )
     iface.launch(debug=True)
